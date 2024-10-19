@@ -124,10 +124,10 @@
     padding: 0 15px;
   }
   .App {
-    height: 100svh;
+    height: 100vh;
   }
   .main {
-    width: 50svh;
+    width: 99%;
     padding-inline: 20px;
   }
 
