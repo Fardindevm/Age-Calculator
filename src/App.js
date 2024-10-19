@@ -2,7 +2,7 @@ import './App.css';
 import arrow_icon from './images/icon-arrow.svg'
 import { useState } from 'react';
 import Button from './components/submit'
-import { useEffect } from 'react';
+// import { useEffect } from 'react';
 
 function App() {
 
@@ -27,9 +27,9 @@ function App() {
     setShowButton(condition)
   }
 
-    useEffect(() => {
-      console.log("Errors in App.js:", errors);
-    }, [errors]);
+    // useEffect(() => {
+    //   console.log("Errors in App.js:", errors);
+    // }, [errors]);
 
   return (
     <div className='App'>

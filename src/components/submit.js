@@ -74,9 +74,7 @@ export default function Button ({
     setLocalShouldCalculate(true);
   }
 
-  console.log(error)
   setShowButton(false)
-  // console.log(newError)
 }
 }, [dayValue, monthValue, yearValue, year, setError, setShowButton, setCalculate, max30days, setMax30Days, setLeapYear, error, showButton])
 
